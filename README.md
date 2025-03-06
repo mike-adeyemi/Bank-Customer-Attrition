@@ -1,4 +1,4 @@
-HR-Dashboard-Excel-Power BI
+# HR-Dashboard-Excel-Power BI
 
 ![HR-Dashboard](https://github.com/user-attachments/assets/f9017065-3fb9-4c58-a3b8-410681868ee2)
 
