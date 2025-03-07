@@ -70,7 +70,7 @@
 ### 4. Card type breakdown by salary?
 
 
-|Card Type|Customer Salary|
+|Card Type|Customer Salary ($)|
 |-|-|
 |SILVER|252,326,935|
 |GOLD|251,578,501|
@@ -102,15 +102,12 @@
 
 ### 6. Complaint Rate by Gender
 
-|Gender|Complaint Customer|
-|-|-|
-|Male|16.53%|
-|Female|25.14%|
+|Gender|Complaint Customer|Customer without Complaint |
+|-|-|-|
+|Male|16.53%|83.47%|
+|Female|25.14%|74.86%|
 
-|Gender|Customer without Complaint |
-|-|-|
-|Male|83.47%|
-|Female|74.86%|
+
 
 **Insights:**
 - 25.14% of female customers have filed complaints, compared to 16.53% of male customers.
