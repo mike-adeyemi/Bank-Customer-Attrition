@@ -119,7 +119,7 @@
 - However, the majority of customers (both genders) do not file complaints, with more than 74% satisfaction levels.
 
 
-**Recommendations**
+## **Recommendations**
 - **Expand Credit Card Usage:** More targeted strategies should encourage female customers to adopt credit cards.
 - **Revenue Maximization:** Consider incentives to increase spending in lower-revenue card tiers (SILVER, PLATINUM).
 - **Age-Based Financial Strategies:** Offer financial products tailored to different age groups based on salary trends.
