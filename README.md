@@ -3,13 +3,12 @@
 ![HR-Dashboard](https://github.com/user-attachments/assets/f9017065-3fb9-4c58-a3b8-410681868ee2)
 
 ## Data Used
+
 **Data** - HR Data with **10,000 rows** of Bank Customer Attrition data
-
-[Datasets Used](https://github.com/assets/datasets/Bank-Customer-Attrition-Insights-Data.xlsx)
-
 **Data Cleaning & Analysis** - Excel 
-
 **Data Visulaization** - Power BI
+
+[Datasets](https://github.com/assets/datasets/Bank-Customer-Attrition-Insights-Data.xlsx)
 
 ## Questions
 1. What is the customer breakdown by Card Type?
