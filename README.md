@@ -3,7 +3,7 @@
 ![HR-Dashboard](https://github.com/user-attachments/assets/f9017065-3fb9-4c58-a3b8-410681868ee2)
 
 ## Data Used
-**Data** - HR Data with 10,000 rows of Bank Customer Attrition data
+**Data** - HR Data with **10,000 rows** of Bank Customer Attrition data
 
 **Data Cleaning & Analysis** - Excel 
 
@@ -19,7 +19,7 @@
 
 ## Summary of Findings
 
-### 1. Customer breakdown by Card Type?
+### 1. Customer breakdown by Card Type
 
 |Gender|Customer with Credit Card|Customer without Credit Card|
 |-|-|-|
@@ -30,7 +30,7 @@
 **Insights:**
 - The majority of customers own a credit card, with **7,100 out of 10,000 customers** having one.
 - There are more **male customers with credit cards (3.9K)** than female customers (3.2K).
-- Similarly, more males (1.6K) than females (1.4K) do not own a credit card.
+- Similarly, more **males (1.6K)** than **females (1.4K)** do not own a credit card.
 - This suggests that males are more likely to use credit cards, which may indicate different spending behaviors between genders.
 
 
@@ -45,11 +45,11 @@
 
 **Insights:**
 - The **DIAMOND card type** contributes the highest share of total revenue (25.93%), followed by **GOLD (25.09%)** and **PLATINUM (24.69%).**
-- The differences between the card types in terms of revenue contribution are minimal, with only a **1.64% gap** between the highest (DIAMOND) and the lowest (SILVER).
+- The differences between the card types in terms of revenue contribution are minimal, with only a **1.64% gap** between the **highest (DIAMOND)** and the **lowest (SILVER)**.
 - This indicates that all card types are performing relatively evenly in terms of revenue, though DIAMOND is leading.
 
 
-### 3. Salary breakdown by age?
+### 3. Salary breakdown by age
 
 |Age Group|Salary($)|
 |-|-|
@@ -67,7 +67,7 @@
 - This suggests that middle-aged customers are the most financially stable and likely to engage in higher banking activities.
   
 
-### 4. Card type breakdown by salary?
+### 4. Card type breakdown by salary
 
 
 |Card Type|Customer Salary ($)|
@@ -84,7 +84,7 @@
 - This suggests that revenue generation is **not solely dependent on income level** but also on spending behavior.
 
 
-### 5. What is the score card breakdown by Age?
+### 5. What is the score card breakdown by Age
 
 |Age Group|Credit Score|
 |-|-|
@@ -202,7 +202,6 @@ DISTINCTCOUNT(HR_Banking_Analytics[CustomerId])
 ```sql
 SUM(HR_Banking_Analytics[Balance])
 ```
-
 
 ### Total Customer Salary
 ```sql
