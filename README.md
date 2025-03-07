@@ -5,6 +5,8 @@
 ## Data Used
 **Data** - HR Data with **10,000 rows** of Bank Customer Attrition data
 
+[Datasets Used](https://github.com/assets/datasets/Bank-Customer-Attrition-Insights-Data.xlsx)
+
 **Data Cleaning & Analysis** - Excel 
 
 **Data Visulaization** - Power BI
