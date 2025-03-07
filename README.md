@@ -19,7 +19,6 @@
 
 ## Summary of Findings
 
-
 ### 1. Customer breakdown by Card Type?
 
 |Gender|Customer with Credit Card|Customer without Credit Card|
@@ -118,7 +117,105 @@
 - This suggests that female customers may be experiencing more service issues, dissatisfaction, or unmet expectations.
 - However, the majority of customers (both genders) do not file complaints, with more than 74% satisfaction levels.
 
+# DAX Measure
 
+### Active
+```sql
+    CALCULATE(
+        COUNTROWS(HR_Banking_Analytics), 
+        HR_Banking_Analytics[IsActiveMember] = 1
+    )
+```
+
+### Active Member Percentage
+```sql
+    DIVIDE(
+        [Active], 
+        COUNTROWS(HR_Banking_Analytics), 
+        0
+    )
+```
+
+### Attribute
+
+```sql
+
+    CALCULATE(
+        COUNTROWS(HR_Banking_Analytics), 
+        HR_Banking_Analytics[IsActiveMember] = 0
+    )
+```
+
+### Average Credit Score
+
+```sql
+AVERAGE(HR_Banking_Analytics[CreditScore])
+```
+
+### Avg Salary
+
+```sql
+var a = CALCULATE(AVERAGE(HR_Banking_Analytics[EstimatedSalary]))
+RETURN a
+````
+
+### Complain Customer
+
+```sql
+    CALCULATE(
+        COUNTROWS(HR_Banking_Analytics), 
+        HR_Banking_Analytics[Complain] = 1
+    )
+```
+
+### Customer with CreditCard 
+
+```sql
+    CALCULATE(
+        COUNTROWS(HR_Banking_Analytics), 
+        HR_Banking_Analytics[HasCrCard] = 1
+    )
+```
+
+### Customer without Credit Car 
+
+```sql
+    CALCULATE(
+        COUNTROWS(HR_Banking_Analytics), 
+        HR_Banking_Analytics[HasCrCard] = 0
+    )
+```
+
+### Headcount 
+
+```sql
+DISTINCTCOUNT(HR_Banking_Analytics[CustomerId])
+```
+
+### Not Complain Customer
+```sql
+    CALCULATE(
+        COUNTROWS(HR_Banking_Analytics), 
+        HR_Banking_Analytics[Complain] = 0
+    )
+```
+
+### Total Balance
+
+```sql
+SUM(HR_Banking_Analytics[Balance])
+```
+
+
+### Total Customer Salary
+```sql
+SUM(HR_Banking_Analytics[EstimatedSalary])
+```
+### Total Point Earned 
+
+```sql
+sum(HR_Banking_Analytics[Point Earned])
+```
 ## **Recommendations**
 - **Expand Credit Card Usage:** More targeted strategies should encourage female customers to adopt credit cards.
 - **Revenue Maximization:** Consider incentives to increase spending in lower-revenue card tiers (SILVER, PLATINUM).
