@@ -177,7 +177,7 @@ RETURN a
     )
 ```
 
-### Customer without Credit Car 
+### Customer without Credit Card
 
 ```sql
     CALCULATE(
